@@ -1,0 +1,20 @@
+
+:host {
+    --kurai-default-color: blue;
+    --kurai-default-border: darkgray;
+    --kurai-border-width: 1px;
+    --kurai-border-radius: 8px;
+    --kurai-control-height: 40px;
+    --kurai-spacing-small: 4px;
+    --kurai-spacing-medium: 8px;
+
+    display: block;
+    input {
+        box-sizing: border-box;
+        border-radius: var(--kurai-border-radius);
+        border: var(--kurai-border-width) solid var(--kurai-default-border);
+        color: var(--kurai-default-color);
+        height: var(--kurai-control-height);
+        padding: var(--kurai-spacing-small) var(--kurai-spacing-medium);
+    }
+}
